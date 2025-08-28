@@ -4,7 +4,7 @@ import aiohttp
 from discord.ext import tasks, commands
 
 TOKEN = os.getenv("DISCORD_TOKEN")
-CHANNEL_ID = 1410604890874581043
+CHANNEL_ID = 1196023684633202751
 UNIVERSE_ID = 7257273362
 
 intents = discord.Intents.default()
@@ -63,3 +63,4 @@ async def on_ready():
     update_embed.start()
 
 bot.run(TOKEN)
+
